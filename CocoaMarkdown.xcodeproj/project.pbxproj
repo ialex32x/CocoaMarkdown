@@ -175,6 +175,8 @@
 		72FE7F191A686ACD00F23F46 /* test.md in Resources */ = {isa = PBXBuildFile; fileRef = 72FE7F171A686AC300F23F46 /* test.md */; };
 		DC0190661EB0903E0029836A /* CMHTMLFontTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0190651EB0903E0029836A /* CMHTMLFontTransformer.m */; };
 		DC0190671EB0903E0029836A /* CMHTMLFontTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0190651EB0903E0029836A /* CMHTMLFontTransformer.m */; };
+		DCA0A7A71EB0965C0015E62E /* CMHTMLFontTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0190481EB08E840029836A /* CMHTMLFontTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCA0A7B71EB096660015E62E /* CMHTMLFontTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0190481EB08E840029836A /* CMHTMLFontTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -817,6 +819,7 @@
 				725115F51A6972AE00337419 /* CMHTMLElementTransformer.h in Headers */,
 				72772BF21A6A28A70059936C /* CMHTMLScriptTransformer.h in Headers */,
 				729F54221A6864F400CC7448 /* CMAttributedStringRenderer.h in Headers */,
+				DCA0A7A71EB0965C0015E62E /* CMHTMLFontTransformer.h in Headers */,
 				72772BD61A699ACB0059936C /* CMHTMLUtilities.h in Headers */,
 				725116091A69760A00337419 /* CMHTMLElement.h in Headers */,
 				72C17A931A6EBA3300212F17 /* CMHTMLRenderer.h in Headers */,
@@ -847,6 +850,7 @@
 				72772BFC1A6A2B5C0059936C /* CMHTMLSubscriptTransformer.h in Headers */,
 				72C17A941A6EBA3300212F17 /* CMHTMLRenderer.h in Headers */,
 				72772BD71A699ACB0059936C /* CMHTMLUtilities.h in Headers */,
+				DCA0A7B71EB096660015E62E /* CMHTMLFontTransformer.h in Headers */,
 				728FA1301AEED87900C7A368 /* CMDocument_Private.h in Headers */,
 				725115E11A6970A300337419 /* CMStack.h in Headers */,
 				729F54391A6864F400CC7448 /* CMPlatformDefines.h in Headers */,
