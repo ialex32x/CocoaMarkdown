@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 @class CMDocument;
 @class CMTextAttributes;
@@ -43,5 +44,7 @@
  *  styled using the attributes set on the receiver.
  */
 - (NSAttributedString *)render;
+
+@property (nonatomic, assign) CGFloat paragraphSpacingBefore;
 
 @end

@@ -37,6 +37,7 @@
     if ((self = [super init])) {
         _document = document;
         _attributes = attributes;
+        _paragraphSpacingBefore = 12;
         _tagNameToTransformerMapping = [[NSMutableDictionary alloc] init];
     }
     return self;
@@ -104,7 +105,7 @@
 {
     if (![self nodeIsInTightMode:parser.currentNode]) {
         NSMutableParagraphStyle* paragraphStyle = [NSMutableParagraphStyle new];
-        paragraphStyle.paragraphSpacingBefore = 12;
+        paragraphStyle.paragraphSpacingBefore = _paragraphSpacingBefore;
         
         [_attributeStack push:CMDefaultAttributeRun(@{NSParagraphStyleAttributeName: paragraphStyle})];
     }
