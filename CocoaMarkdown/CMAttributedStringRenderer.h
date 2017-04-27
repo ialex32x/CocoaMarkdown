@@ -46,5 +46,6 @@
 - (NSAttributedString *)render;
 
 @property (nonatomic, assign) CGFloat paragraphSpacingBefore;
+@property (nonatomic, strong) NSString *stringForSoftBreak;
 
 @end

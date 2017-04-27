@@ -38,6 +38,7 @@
         _document = document;
         _attributes = attributes;
         _paragraphSpacingBefore = 12;
+        _stringForSoftBreak = @" ";
         _tagNameToTransformerMapping = [[NSMutableDictionary alloc] init];
     }
     return self;
@@ -210,7 +211,7 @@
 
 - (void)parserFoundSoftBreak:(CMParser *)parser
 {
-    [self appendString:@"\n"];
+    [self appendString:_stringForSoftBreak];
 }
 
 - (void)parserFoundLineBreak:(CMParser *)parser
